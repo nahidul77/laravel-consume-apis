@@ -30,5 +30,12 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'market' => [
+        'base_uri' => env('MARKET_BASE_URI'),
+        'client_id' => env('MARKET_CLIENT_ID'),
+        'client_secret' => env('MARKET_CLIENT_SECRET'),
+        'password_client_id' => env('MARKET_PASSWORD_CLIENT_ID'),
+        'password_client_secret' => env('MARKET_PASSWORD_CLIENT_SECRET'),
+    ],
 
 ];
